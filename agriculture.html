@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<!--
+	Verti by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Land Tax Calculator</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <!--[if lte IE 8]>
+    <script src="css/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" type="text/css" href="form/jquery_ui.css"/>
+    <link href="form/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="form/style.css" rel="stylesheet" type="text/css"/>
+    <!--<script type="text/javascript" src="jqueryLib.js"></script> -->
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,100,500" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="form/jquery-1.10.2.min.js"></script>
+
+    <script type="text/javascript" src="form/jquery_ui.js"></script>
+    <!--[if lte IE 8]>
+    <script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-layers.min.js"></script>
+    <script src="js/init.js"></script>
+
+    <script src="script/TaxForKrishi.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="css/skel.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/style-desktop.css"/>
+    </noscript>
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/ie/v8.css"/><![endif]-->
+</head>
+<body class="homepage">
+
+<!-- Header -->
+<div id="header-wrapper">
+    <header id="header" class="container">
+
+        <!-- Logo -->
+        <div id="logo">
+            <a href="index.html"><img src="images/logo.png" alt=""/></a>
+
+        </div>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul style="font-size: 14px">
+                <li><a href="index.html">মূল পাতা</a></li>
+                <li><a href="introduction.html">প্রাক-কথন</a></li>
+                <li><a href="landtax.html">ভূমি উন্নয়ন কর</a></li>
+                <li><a href="howtouse.html">ব্যবহার নির্দেশিকা</a></li>
+                <li><a href="rate.html"> করের হার</a></li>
+                <li><a href="howtouse2.html"> বিশেষ নির্দেশিকা</a></li>
+                <li class="current"><a href="agriculture.html">কৃষি</a></li>
+                <li><a href="Non-agricultural.html">অকৃষি</a></li>
+            </ul>
+        </nav>
+
+    </header>
+</div>
+
+<!-- Banner -->
+<div id="banner-wrapper">
+    <div id="banner" class="box container">
+
+        <!--<section class="result_text">-->
+
+            <!--<p style="font-size: 17px;" id="result_text">-->
+                <!--&lt;!&ndash; here will be the output &ndash;&gt;-->
+            <!--</p>-->
+        <!--</section>-->
+
+        <div class="col-md-8 col-md-offset-2" style="font-size:15px;">
+            <div class="form-horizontal" role="form">
+
+                <div class="form-group margin-top-admin">
+
+                    <P style="font-size: 20pt; color:green; text-align:center;">আপনার জমির ধরন: কৃষি</p>
+
+                </div>
+
+                <div class="form-group margin-top-admin">
+                    <label class="col-xs-12 col-sm-12 col-md-5 col-lg-5" for="example1"
+                           style="font-family: SolaimanLipi;">ক. কৃষি :</label>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <input style="border: 1px solid black" type="text" name="areaKrishi" class=" form-control" style="font-family: SolaimanLipi;"
+                               id="areaKrishi" placeholder="জমির পরিমান শতাংশে দিন">
+                    </div>
+
+                </div>
+                <div class="form-group margin-top-admin">
+                    <label class="col-xs-12 col-sm-12 col-md-5 col-lg-5" for="example1"
+                           style="font-family: SolaimanLipi;">খ. কৃষি বাণিজ্যিক :</label>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <input style="border: 1px solid black" type="text" name="areaBanijjo" class=" form-control" style="font-family: SolaimanLipi;"
+                               id="areaBanijjo" placeholder="জমির পরিমান শতাংশে দিন">
+                    </div>
+
+                </div>
+                <div class="form-group margin-top-admin">
+                    <label class="col-xs-12 col-sm-12 col-md-5 col-lg-5" style="font-family: SolaimanLipi;"
+                           for="example1">সর্বশেষ পরিশোধিত বছর :</label>
+
+                    
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
+                            <input style="border: 1px solid black" type="text" name="yearKrishi" class=" form-control" style="font-family: SolaimanLipi;"
+                                   style="font-family: SolaimanLipi;" id="yearKrishi" placeholder="সর্বশেষ পরিশোধিত বছর">
+                        </div>
+                    
+                </div>
+
+
+                <div class="form-group">
+                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 margin-top-admin"
+                         style="font-family: SolaimanLipi;">
+                        <button onclick="TaxAgriculture()" class="btn btn-primary pull-right" style="color: white">
+                            ফলাফল
+                        </button>
+
+                    </div>
+                </div>
+
+                <section class="result">
+
+                    <p id="result">
+                        <!-- here will be the output -->
+                    </p>
+                </section>
+
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+<!-- Features -->
+<br>
+</body>
+</html>

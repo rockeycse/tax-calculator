@@ -1,0 +1,401 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    margin: 0;
+    padding: 0;
+	font-family: NikoshBAN;
+}
+.menubar{
+    height:50px;
+    width: 96%;
+    background-color:#944A2D;
+    border:1px solid #944A2D;
+    margin-left:5px;
+    margin-right:18px;
+
+}
+a{
+padding:5px
+}
+.subMenu{
+    height:30px;
+    background-color:#A75935;
+    margin-top:10px;
+    width:100%;
+
+}
+.menubar1{
+    height:50px;
+    background-color:#944A2D;
+    border:1px solid #944A2D;
+    margin-left:5px;
+    margin-right:40px;
+    margin-top:10px;
+
+}
+.menubar3{
+    height:50px;
+    background-color:#944A2D;
+    border:1px solid #944A2D;
+    margin-left:2px;
+    margin-right:160px;
+    margin-top:10px;
+
+}
+.menubar2{
+    height:50px;
+    background-color:#944A2D;
+    border:1px solid #944A2D;
+    margin-left:3px;
+    margin-right:160px;
+
+}
+.subMenu1{
+    height:30px;
+    background-color:#A75935;
+    margin-top:10px;
+    width:100%;
+
+}
+.subMenu3{
+    height:30px;
+    background-color:#A75935;
+    margin-top:10px;
+    width:100%;
+
+}
+.leftMenu{
+    background-color: #A9DA6D;
+    margin-left: 20px;
+}
+ul.parent{
+    font-weight:bold;
+
+
+}
+.leftMenu>ul{
+    margin-left:-40px;
+
+
+}
+.leftMenu ul li{
+    list-style:none;
+
+}
+ul.children{
+
+    margin-left:-40px; 
+}
+ul.children li{
+    border:1px solid #FFFFC0;
+    font-weight:normal;
+
+    background-color:#13862A;
+
+}
+.footer{
+            background: #84154d;
+            padding: 5px 15px 2px;
+            margin-bottom: 10px;
+                    }
+
+.footer div a p{
+    vertical-align:center;
+  /*  margin: -10px 0 0 450px;*/
+  margin:5px 0px 20px 0px;
+    color: #ffffff;
+}
+.footer div p{
+    vertical-align:bottom;
+    margin: 10px 0 0 15px;
+    padding-top: 10px; 
+    color: #ffffff;
+}
+.topButton{
+    margin-left:560px;		
+}
+.downButton{
+    text-align:right;		
+}
+.form{
+
+    border:1px solid #D6EEA0;
+    background-color: #FFFFC3;
+    height:260px;
+    margin-left:20px;
+    margin-top:10px;
+
+}
+.form1{
+
+    border:none  solid #D6EEA0;
+    margin-top:8px;
+
+}
+.example{
+    width: 0px;
+    border:0px solid #D6EEA0;
+
+}
+td.textarea{
+
+    background-color:#33F;
+}
+.header{
+    margin-top:10px;
+    margin-left:0px;
+    
+
+}
+.header img{
+  
+    margin-left: 0px;
+    height: 105px;
+    
+}
+.bar{
+	height: 37px; 
+	background-color: #84154d; 
+	padding-top: 8px;
+}
+.td1{
+    margin-top:30px;
+
+}
+.menubar4{
+    height:50px;
+    background-color:#944A2D;
+    border:1px solid #944A2D;
+
+    margin-right:160px;
+    margin-top:10px;
+
+}
+.menu_user{
+
+    margin-left:25px;
+
+
+}
+.all_user{
+    margin-top:150px; 
+
+    border:5px solid #999999;
+
+    margin-left:260px;
+
+}
+@font-face{
+    font-family: 'myBangla';
+    src: url('http://acland-sadarctg.gov.bd/acland/SolaimanLipi/SolaimanLipi_22-02-2012.ttf');
+}
+body{
+    font-family: 'myBangla';
+
+}
+.menu{
+    color:floralwhite;
+    font-weight:bold;
+
+
+
+
+}
+.field{
+    background-color:#D6EEA0;
+
+}
+.loginform{
+
+    margin-top: 120px;
+
+}
+.reset{
+
+    margin-left: 195px;  
+    background-color:#d3f09e;
+
+
+}
+.lusername{
+
+    margin-left: 10px;
+
+}
+.lpassword{
+    margin-left: 12px;
+}
+
+.footer{
+
+    margin-top: 40px;
+    margin-left: 3px;
+    margin-right:0px;
+
+
+}
+.lusername{
+
+    background-color: #a9da6d;  
+}
+.lpassword{
+    background-color: #a9da6d;  
+}
+.edit{
+    margin-left: 8%;
+    background-color: #008836;       
+}
+.send{
+    background-color: #008836; 
+}
+.edit1{
+    margin-left: 7%;
+    background-color: #008836;       
+}
+.edit2{
+    margin-left: 9%;
+    background-color: #008836;       
+}
+.view1{
+    margin-left:-1%;
+    background-color: #008836;       
+}
+.p{
+    background-color: #d6eea0;
+    margin-left: 40px;
+}
+.f{
+    background-color: #d6eea0;
+    margin-left: 5px;
+}
+.eu{
+
+    background-color: #008836;
+
+}
+.sv{
+    background-color: #008836;   
+}
+.edit_update{
+    background-color: #a75935;  
+}
+.lsave{
+    background-color: #a75935;  
+}
+
+.login{
+    background-color: #d6eea0;
+
+}
+.submit{
+    background-color: #008836;
+    color: #ffffff;
+
+}
+.gradient{
+
+    background: rgb(165,215,126); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(165,215,126,1) 0%, rgba(0,136,54,1) 15%, rgba(0,136,54,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(165,215,126,1)), color-stop(15%,rgba(0,136,54,1)), color-stop(100%,rgba(0,136,54,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(165,215,126,1) 0%,rgba(0,136,54,1) 15%,rgba(0,136,54,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(165,215,126,1) 0%,rgba(0,136,54,1) 15%,rgba(0,136,54,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(165,215,126,1) 0%,rgba(0,136,54,1) 15%,rgba(0,136,54,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(165,215,126,1) 0%,rgba(0,136,54,1) 15%,rgba(0,136,54,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a5d77e', endColorstr='#008836',GradientType=0 ); /* IE6-9 */
+
+}
+.archive{
+    margin-top:50%;
+}
+.body{
+    background-color: #d6eea0;
+
+}
+.footer1{
+
+    height:60px;
+ 
+
+    margin-left: 118px;
+    margin-right: 155px;
+    margin-top: 40px;
+  background-color:#008836;
+}
+.copy{
+
+ margin-left:50px;
+ margin-top:10px;
+
+}
+.copy1{
+
+margin-top:10px;
+
+
+}
+
+.mainform1
+{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.kharij{
+    margin-left:10px;
+    margin-top: 10px;
+    width: 500px;
+    background-color:#13862A; 
+}
+
+////////////////////////////Login Form Style/////////////////////////////
+
+.formContainer{
+   border:  1px solid #a75935;
+    background-color: #008836;
+}
+.uname{
+    background-color: #33F;
+}
+.addUserInputStyle{
+    background-color:#D6EEA0; 
+    border: 1px solid #4F5155; 
+    margin-bottom: 5px;
+    height: 25px;
+}
+.dashboard_InputStyle{
+    background-color:#D6EEA0; 
+    border: 1px solid #4F5155; 
+    margin-bottom: 5px;
+    height: 25px;
+}
+.deshboardButtonStyle{
+    border: 1px solid #13862A;
+}
+.leftMenu ul li a{
+    color: #ffffff;
+    padding-top: 5px;
+}
+.form-control1 {
+  /*display: block;
+  width: 100%;*/
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -moz-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
